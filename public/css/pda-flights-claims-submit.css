@@ -1,0 +1,195 @@
+.body {
+	width: 767;
+	background-color: #dedede;
+}
+
+
+.page {
+    background-color: #dedede;
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    width: 767px;
+}
+
+.content {
+    background-color: #dedede;
+    padding: 0 20px 10px;
+    width: 727px;
+}
+
+.terms {
+    border-bottom: 1px dotted #666666;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.message {
+    border-bottom: 1px dotted #666666;
+    color: #0055AA;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#price_drop_form {
+	padding-top:10px;
+	background-color: #dedede;
+	width: 727px;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px
+}	
+	
+.terms {
+    border-bottom: 1px dotted #666666;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+.terms ul li {
+    padding-bottom: 2px;
+}
+.require {
+    color: #990000;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.required_text {
+    color: #990000;
+    margin-bottom: 5px;
+}
+.form {
+    font-size: 12px;
+}
+.form label {
+    color: #0055AA;
+    font-weight: bold;
+}
+.form input {
+    border: 1px solid #999999;
+    width: 200px;
+}
+.form tr td {
+    padding: 2px 0;
+}
+.accept {
+    color: #333333;
+    font-size: 12px;
+}
+.accept a {
+    color: #0055AA;
+}
+.accept a:hover {
+    text-decoration: none;
+}
+.ph {
+    color: #999999;
+}
+.ph input {
+    width: 59px;
+}
+.terms_box input {
+    width: 20px;
+}
+.button {
+    background: -moz-linear-gradient(center top , #C8161D, #790101) repeat scroll 0 0 transparent;
+    background-color: red;
+    border: 1px solid #790101;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+.button:hover {
+    background: -moz-linear-gradient(center top , #BA141D, #740101) repeat scroll 0 0 transparent;
+    color: #F1F1F1;
+}
+.error {
+    background-color: #FFFFCC;
+    border: 1px solid #CC0000;
+    display: none;
+    font: 10px arial;
+    margin-left: 4px;
+    padding: 3px;
+}
+
+
+
+
+.clear{
+	clear:both;
+}
+.pda_image{
+	margin-left:10px;
+}
+.pda{
+	background-color:#dedede;
+	width:220px;
+	margin:0px 0px 10px 10px;
+}
+.pda p{
+	margin:0px;
+	font-size:11px;
+	line-height:normal;
+	letter-spacing:normal;
+	color:#333333;
+	padding:5px 15px;
+}
+.pda p a{
+	color:#0055AA;
+}
+.pda ul{
+	list-style:none;
+	margin:10px 0px 10px 0px;
+	padding-left:33px;
+}
+.pda ul li{
+	padding:6px 10px 4px 10px;
+	height:30px;
+}
+.pda ul li a{
+	text-decoration:none;
+	border:1px solid #790101;
+	padding:6px 10px 6px 10px;
+	color:#FFFFFF; 
+	font-size:14px;
+	font-weight:bold;
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	
+	/* fallback (Opera) */
+	background-color:#C8161D;
+    /* Mozilla: */
+    background: -moz-linear-gradient(top, #C8161D, #790101);
+    /* Chrome, Safari:*/
+    background: -webkit-gradient(linear,
+                left top, left bottom, from(#C8161D), to(#790101));
+    /* MSIE */
+    filter: progid:DXImageTransform.Microsoft.Gradient(
+                StartColorStr='#C8161D', EndColorStr='#790101', GradientType=0);
+}
+.pda ul li a:hover{
+	color:#F1F1F1;
+	
+	/* fallback (Opera) */
+	background-color:#BA141D;
+    /* Mozilla: */
+    background: -moz-linear-gradient(top, #BA141D, #740101);
+    /* Chrome, Safari:*/
+    background: -webkit-gradient(linear,
+                left top, left bottom, from(#BA141D), to(#740101));
+    /* MSIE */
+    filter: progid:DXImageTransform.Microsoft.Gradient(
+                StartColorStr='#BA141D', EndColorStr='#740101', GradientType=0);
+}
+
+
+
+

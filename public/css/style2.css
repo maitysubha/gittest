@@ -1,0 +1,4164 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333; 
+	font: normal 12px Arial, Helvetica, sans-serif; 
+	background-image: url(images/backgroundwide2009.jpg); 
+	line-height: 18px;
+	background-repeat: repeat-x;
+	margin: 0px; 
+	padding: 0px;  
+	background-color: #073364;
+	height:100%;
+}
+body.hotelchange {background-image: none; background-color: #FFF;}		
+
+ 	
+#frame {
+	width:966px;
+	margin-right:auto;
+	margin-left:auto; 
+	margin-top:0px;
+	margin-bottom: 15px;
+	padding:0px;
+	text-align:left;
+}
+
+#frame3 {
+	width:966px;
+	margin-right:auto;
+	margin-left:auto; 
+	margin-top:0px;
+	margin-bottom: 0px;
+	padding:0px;
+	text-align:left;
+}
+
+#frame2 {
+	width:966px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:0px;
+	padding:0px;
+	text-align:left;
+	background-color: #FFFFFF;
+}
+
+#contentwide {
+	width:645px;
+	padding: 0px;
+	float:left;
+	border-right: 1px solid #CCCCCC;	
+}
+#header-light { margin-bottom: 0px;}
+
+.header-left {float: left; width: 302px; }
+.phone {
+	margin-left: 70px;
+	width: 255px;
+	float: left;
+	height: 115px;
+	
+}
+.header-right {
+	text-align: right;
+	float: right;
+	padding: 20px 0px 0px 0px;
+	width: 310px;
+	clear: right;
+}
+.header-right a {
+	font: normal 11px Arial, Helvetica, sans-serif;
+	text-transform: normal;
+	border-right: 1px solid #b63030; 
+	padding: 0px 7px;
+	color: #FFF;
+	text-decoration: underline;
+}	
+.header-right a:hover { color: #000;}
+.header-right a.home { border-left: 1px solid #b63030; }
+.logobar_search_button { margin: 0px; padding:0px; }
+
+#searchcontainer {
+	float: right;
+	padding: 0px;
+	margin: 15px 0px 1px 0px;
+	width: 293px;
+} 
+
+#search_box {
+	width: 293px; 
+	height: 28px;  
+	background: url(images/light-search-bg2.jpg) no-repeat;
+	position: inherit;
+}
+ 
+#search_box #SearchBox { 
+	padding: 0; 
+	border: 0;
+
+}
+.logobar_search_box {
+	font: normal 13px Arial, Helvetica, sans-serif;
+	width: 190px;
+	margin: 6px 6px 4px 12px;
+	padding: 0px;
+	float: left;
+	
+	
+}
+.logobar_search_button { margin: 0px; padding:0px; }
+
+#search_box #go {
+	float: right;
+	margin: 0px 0px 0 0;
+ 
+}
+	
+#inlineimg img {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	float: right;
+}
+#inlineimg1 {float: left;}
+#inlineimg1 img{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height: 108px;
+}
+#navmenu ul {
+	clear: both;
+/*	background-image: url(http://www.redtag.ca/images/menubackground.jpg);
+	background-repeat: no-repeat;*/
+	padding: 0px 0px 2px 0px; 
+	margin: 0px 0px 2px 0px;
+	_margin: 0px 0px 4px 0px; /* this did the trick. Only IE6 should process this line */		
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;	
+	font-family: arial, helvetica, sans-serif;
+	text-align: center;
+	background-color: none; 
+	overflow: hidden;
+	background: url(images/backpages/nav-bg.jpg) repeat-x;
+}
+
+#navmenu ul li { background: none; display: inline; margin: 0px 0px 0px 0px; padding: 0px; list-style: none; 	background: url(images/light-menu-divide2.jpg) no-repeat right;}
+
+#navmenu ul li a {
+	background: url(images/light-menu-divide2.jpg) no-repeat left 0px;
+	padding: 12px 14px 10px 14px; 
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: capitalize;
+	float: left; 
+}
+#navmenu ul li a b { 	background: url(images/light-menu-divide2.jpg) no-repeat right 0px; }
+
+#navmenu ul li a:hover {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: underline;
+	background: url(images/light-menu-hover2.jpg) repeat-x left 1px;
+}
+#navmenu ul li.home a {margin-left: -15px; }
+#phone {
+	width: 400px;
+	height: 27px;	
+	float: left;
+}
+#topright {
+	width: 496px;
+	height: 27px;
+	text-align: right;
+	float: right;
+}
+#inlineimg img {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	float: right;
+}
+#inlineimg1 {float: left;}
+#inlineimg1 img{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height: 108px;
+}	
+#boxednav ul {
+	padding: 0px;
+	margin: 10px;	
+	color: #333333;
+	font-size: 11px;
+	font-weight: bold;	
+	float: left;
+	font-family: arial, helvetica, sans-serif;
+/*	height: 30px;*/
+}
+
+#boxednav ul li { display: inline; }
+
+#boxednav ul li a { 
+	padding: 8px 10px 7px 10px;
+	color: #333333;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	border: 1px solid #CCCCCC;
+	background-color: #F1F1F1;
+/*	float: left; */
+	text-transform: capitalize;
+}
+
+#boxednav ul li a:hover {
+	color: #333333;
+	font-size: 12px;
+	font-weight: bold;	
+	text-decoration: underline;
+}
+
+#bannerborder3 {
+	border: 5px solid #FFFFFF;
+}
+#bannerborder {
+	border: 10px solid #FFFFFF;
+	
+}
+#bannerborder img { margin: 0px; padding: 0px; }
+
+#bannerborder2 {
+	border: 10px solid #FFFFFF;
+	margin-bottom: 10px;
+}
+#bannerborder img { margin-bottom: -10px; padding: 0px; }
+
+#bannerborderdeals {
+	border: 10px solid #FFFFFF;
+	margin-bottom: 0px;
+}
+#bannerborderdeals img { margin-bottom: -10px; padding: 0px; float: left;}
+
+#bannerborderside {
+	border-top: 10px solid #FFFFFF;
+	border-right: 10px solid #FFFFFF;
+	border-bottom: 10px solid #FFFFFF;		
+	margin-bottom: 0px;
+}
+#bannerborderside img { margin-bottom: -10px; padding: 0px; }
+
+#topleft {
+	background-image: url(images/topleft.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-color: #FFFFFF;
+	height: 10px;
+	padding: 0px;
+	margin: 0px;
+	width: 966px;
+	text-align: right;
+}	 
+#topleft img { margin: 0px; padding: 0px; }
+
+#whitegbg {
+	background-color: #FFFFFF;
+}		
+		
+#contentleft {
+	width:186px;
+	padding:0px;
+	float:left;
+	overflow: hidden;
+}
+
+#contentleftwide {
+	width:719px;
+	padding:0px;
+	overflow: hidden;
+}
+	
+#contentcenter {
+	width:458px;
+	margin-top: 0px;
+	padding: 0px;
+	float:left;
+	border-left: 1px solid #CCCCCC;
+	overflow:hidden;
+/*	border-right: 1px solid #CCCCCC; */
+}
+#contentcenter-flight-test {
+	width:453px;
+	margin-top: 0px;
+	padding: 0px;
+	float:left;
+	border-left: 1px solid #CCCCCC;
+	overflow:hidden;
+/*	border-right: 1px solid #CCCCCC; */
+}
+	
+#contentright {
+	width:320px;
+	padding:0px;
+	float:left;
+	background-color: #FFFFFF;
+	display: block;
+}
+	
+#contentheader {
+	width: 966px;
+	z-index: 0;
+}
+#splitleft {
+	width:312px;
+	padding:0px;
+	float:left;
+	border-right: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+#splitright {
+	width:312px;
+	padding:0px;
+	clear:right;
+	overflow: hidden;
+}
+
+#contentmidleft {
+	width:229px;
+	padding:0px;
+	float:left;
+	border-right: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+#contentmidleft table {
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 200px;
+	height: 62px;
+	padding: 10px;
+	margin-left: 10px;
+	border: 1px solid #CCCCCC;	
+}
+#contentmidright {
+	width:229px;
+	padding:0px;
+	float:right;
+}
+		
+p,pre {
+	margin:10px 10px 10px 10px;
+	text-align: justify;
+	line-height: 20px;
+}
+		
+h1 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	line-height:30px;
+	font-weight: lighter;
+	text-align:left;
+	border-bottom: 1px solid #CCCCCC; 
+	margin: 0px 10px 14px 10px;
+	padding-top: 5px; 
+	padding-bottom: 12px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:left;
+	color: #CA0000;
+	margin: 0px 10px 10px 10px;
+}
+
+
+/*ul,li { line-height: 22px; }*/
+
+
+#headertext4 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align:left;
+	border-bottom: 1px solid #CCCCCC; 
+	margin: 10px 10px 14px 10px;
+	padding-top: 5px; 
+	padding-bottom: 12px;
+}
+#headertext5 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	text-align:left;
+	margin: 0px 0px 0px 0px;
+	padding-top: 5px; 
+}
+
+a {
+	color: #333333;
+	text-decoration: underline;
+}
+a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+.fullmargin {
+	margin: 10px;
+	padding: 0px;
+}
+
+.image1pxborder {
+	border: 1px solid #CCCCCC;
+	padding:4px;
+} 		
+
+.img1pxBord {
+	border: 1px solid #CCCCCC;
+} 	  
+#contentcenter p {
+	text-align:justify;
+	line-height: 18px;
+}
+#contentright p { font-size:11px; line-height: 16px;}
+
+#contentrightfeatured {
+	color: #333333; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px 0px 1px 0px; 
+	background-color: #FFFFFF;
+/*	border: 10px solid #d9eaee;*/
+	border: 10px solid #F1F1F1;
+	line-height: 16px; 
+}
+#contentrightfeatured h2 {
+	color: #CA0000;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+#contentrightfeatured table {
+	margin: 0px 6px 0px 6px;
+	padding: 0px;
+}
+#contentrightfeatured td{
+	border-bottom: 1px solid #CCCCCC;
+}
+.contentrightfeaturedimg {
+	margin: 2px 2px 2px 0px;
+	padding: 0px;
+	border: 1px solid #CCCCCC;
+}
+/*# {
+	color: #333333; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 1px 0px; 
+	background-color: #FFFFFF;
+	border: 10px solid #fee6d4; 
+}
+# h2 {
+	color: #CA0000;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+# table {
+	margin: 0px 6px 0px 6px;
+	padding: 0px;
+}
+# td{
+	border-bottom: 1px solid #CCCCCC;
+}
+*/
+#contentrightfeatured2 {
+	color: #333333; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 1px 0px; 
+	background-color: #FFFFFF;
+	border: 10px solid #F1F1F1;
+/*	border: 10px solid #f6ddb2;*/
+	line-height: 16px; 
+}
+
+#hotelsresortsrightfeatured {
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+#hotelsresortsrightfeatured #leftmenutitles {
+	background-image: url(http://www.redtag.ca/images/leftcol2.jpg);
+	background-repeat: repeat-x;
+}	
+#contentright #leftmenutitles {
+	background-image: url(http://www.redtag.ca/images/leftcol2.jpg);
+	background-repeat: repeat-x;
+}	
+#contentrightfeatured2 #RightCruises a {
+}	
+#rightfeaturedcruises {
+	background-image: url(images/menu/titlesrightCruise.gif);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 10px;
+	height: 63px;
+}
+.rightfeaturedtitles {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 10px;
+}	
+.twelvePtwhite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: normal;
+	padding: 4px;
+
+}
+.twelvePtwhite a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.twelvePtwhite a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.twelvePtwhite a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#borderlightgrey {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #F1F1F1;
+}
+#borderlightblue {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #d9eaee;
+}
+#borderlightblue2 {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #d9eaee;
+	min-height:100px;
+	
+}
+#borderWhite {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #ffffff;
+}
+
+#borderlightbluedestination {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 5px solid #d9eaee;
+}
+#borderlightsand {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #f6ddb2;
+}
+#borderlightpurple {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #eae3f7;
+}
+#borderlightred {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #cc0000;
+}
+#borderlightgrey2 {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #dddbdb;
+}
+#borderlightgrey3 {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #d3d3d3;
+}
+#borderlightblack {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #000000;
+}
+#borderlightgreen {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #E6F6DC;
+}
+#leftmenuborder {
+	margin: 0px;
+	padding: 0px;
+	border: 10px solid #FFFFFF;
+}
+#leftmenuwide {
+	text-decoration:none;
+	text-align: left;
+	color:#333333;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0px;
+	text-transform: uppercase;
+
+  }
+#leftmenuwide ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+	  
+#leftmenuwide li {
+	text-decoration:none;
+	color:#333333;
+	font-weight: bold;
+/*	border-bottom: 4px solid #FFFFFF; */
+	margin: 0px 0px 4px 0px;
+	padding:0px 4px 0px 4px;
+	display: block;
+	border-bottom: 0px solid #CCCCCC;
+}  
+#leftmenuwide a {
+	text-decoration:none;
+	text-align: left;
+	color:#333333;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 2px;
+	padding:2px 8px 2px 5px;
+/*	background-image:url(http://www.redtag.ca/images/menu/bulletred.gif);
+	background-position: 2px 9px;
+	background-repeat:no-repeat;*/
+	background-color: #f1f1f1;		
+/*	background-image: url(http://www.redtag.ca/images/bulletarrowblue.gif);
+	background-repeat: no-repeat;
+	background-position: right;  */
+}
+
+
+#leftmenuwide a:hover {
+	color: #0A4280;
+	text-decoration: underline;
+/*	background-color: #F1F1F1;
+ 	background-color: #F1F1F1;*/
+/*	background-image: url(http://www.redtag.ca/images/bulletarrowgray2.gif);
+	background-repeat: no-repeat;
+    background-position: right; */
+}
+#leftmenuwideArrow a, #leftmenuwideArrow a:visited {
+/*	text-decoration:none;
+	text-align: left;
+	color:#333333;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 2px;
+	padding:2px 8px 2px 5px;*/
+/*	background-image:url(http://www.redtag.ca/images/menu/bulletred.gif);
+	background-position: 2px 9px;
+	background-repeat:no-repeat;*/
+	background-color: #f1f1f1;		
+	background-image: url(http://www.redtag.ca/images/bulletarrowblue.gif);
+	background-repeat: no-repeat;
+	background-position: 150px 5px;
+}
+
+
+#leftmenuwideArrow a:hover {
+	color: #0A4280;
+	text-decoration: underline;
+/*	background-color: #F1F1F1;
+ 	background-color: #F1F1F1;*/
+	background-image: url(http://www.redtag.ca/images/bulletarrowgray2.gif);
+	background-repeat: no-repeat;
+	background-position: 150px 5px;
+}
+
+#leftmenuwide img {
+	border-bottom: 4px solid #CA0000;
+}
+#contentright #leftmenuwide a {
+	text-decoration:none;
+	text-align: left;
+	color: #333333;
+	font-weight: bold;
+	display:block;
+	margin-top: 4px;
+	padding: 3px 2px 3px 35px;
+	background-color: #F1F1F1;
+	background-image: url(http://www.redtag.ca/images/arrowred.gif);
+	background-repeat: no-repeat;
+	background-position: 14px 8px; 
+/*	border-bottom: 1px solid #CCCCCC; */
+}
+
+
+
+
+#HRmenuwide {
+	text-decoration:none;
+	text-align: left;
+	color:#333333;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0px;
+	text-transform: uppercase;
+  }
+  
+#HRmenuwide ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+	  
+#HRmenuwide li {
+	text-decoration:none;
+	color:#333333;
+	font-weight: bold;
+	border-bottom: 4px solid #FFFFFF;
+	margin: 0px;
+	padding:0px 4px 0px 4px;
+	display: block;
+	background-color: #F1F1F1;
+} 
+ 
+#HRmenuwide a, #HRmenuwide a:visited {
+	text-decoration:none;
+	text-align: left;
+	color:#333333;
+	font-weight: bold;
+	border-bottom: 10px solid #FFFFFF;
+	padding:2px 8px 2px 5px;
+	/*	background-image: url(http://www.redtag.ca/images/bulletarrowblue.gif);
+	background-repeat: no-repeat;
+	background-position: right;  */
+}
+
+#HRmenuwide a:hover {
+	color: #333333;
+ 	text-decoration: underline;
+	background-color: #F1F1F1;
+	
+/* 	background-color: #F1F1F1;*/
+/*	background-image: url(http://www.redtag.ca/images/bulletarrowgray2.gif);
+	background-repeat: no-repeat;
+    background-position: right; */
+}
+
+#HRmenuwide img {
+	border-bottom: 4px solid #CA0000;
+}
+
+#leftmenutitles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px 0px 2px 0px;
+	height: 22px;
+/*	background-color: #2c6197; */
+	background-color: #FFFFFF;
+	padding: 4px 5px 4px 5px;
+/*	background-image: url(http://www.redtag.ca/images/leftcol2.jpg);
+	background-repeat: repeat-x;*/
+	background-image: url(http://www.redtag.ca/images/menu/leftmenured2.gif);	
+	background-repeat: no-repeat;
+}
+
+#leftmenutitles a {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+/*	background-image: url(images/bulletred1.gif);
+	background-repeat: no-repeat;
+	background-position: left; */
+}
+#leftmenutitles a:hover {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+/*	padding-left: 15px;
+	background-image: url(images/bulletred1.gif);
+	background-repeat: no-repeat;
+	background-position: left; */
+}
+.picborder {
+	border-color: #CCCCCC;
+	border-width: 1px;
+	border-style: solid;
+	padding: 0px;
+}
+
+#canadawidefull {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 10px;
+	background-color: #FFFFFF;
+	z-index:10;
+}
+#canadawidefull table {
+	margin: 0px;
+	padding: 0px;
+}
+
+#canadawidefull td {
+/*	background-color: #edf2f7;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;	
+	border-top: 1px solid #E1E1E1;
+	border-left: 1px solid #E1E1E1;		
+	height: 16px;
+	border: 1px solid #d2dae4; */
+	padding:3px 0px 3px 5px;
+}
+#canadawidefull h2 {
+	color: #FFFFFF;
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: lighter; 
+	margin: 0px;
+	height: 50px;
+	background-image: url(http://www.redtag.ca/images/menu/canadawidespecials1.jpg);  
+/*	background-image: url(http://www.redtag.ca/images/menu/februaryblowout.jpg);*/
+	background-repeat: no-repeat; 
+}
+#canadawidefull a {
+	/*background-image: url(images/menu/bulletred.gif);
+	background-position: 5px  ;
+	background-repeat: no-repeat;*/
+	color: #0A4280;
+	font-size: 11px;
+	padding-left: 15px;
+	text-decoration: underline;
+
+}
+#canadawidefull a:hover {
+	color: #CA0000;
+	font-size: 11px;
+	text-decoration: none;
+}
+.canadawidefullbg {
+	width: 966px; 
+	background: url(images/canadawide-bg2.jpg) repeat-y 0px -5px; 
+	display:none;
+}
+#canadawidefull2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 10px;
+}
+#canadawidefull2 table {
+	margin: 0px;
+	padding: 0px;
+}
+
+#canadawidefull2 td {
+/*	background-color: #edf2f7;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;	
+	border-top: 1px solid #E1E1E1;
+	border-left: 1px solid #E1E1E1;		
+	height: 16px;
+	border: 1px solid #d2dae4; */
+	padding:3px 0px 3px 5px;
+	border-bottom: 1px dotted #505f68;
+/*	border-bottom: 1px dotted #5f4d4d;	*/
+}
+#canadawidefull2 h2 {
+	color: #000;
+	font: normal 24px Arial, Helvetica, sans-serif;
+	margin: 0px;
+	height: 50px;
+	text-align: center;
+/*	background-image: url(http://www.redtag.ca/images/menu/canadawidespecials1.jpg);  
+	background-image: url(http://www.redtag.ca/images/menu/februaryblowout.jpg);*/
+	background-repeat: no-repeat; 
+}
+#canadawidefull2 a {
+	/*background-image: url(images/menu/bulletred.gif);
+	background-position: 5px  ;
+	background-repeat: no-repeat;*/
+	color: #FFF;
+	font-size: 11px;
+	padding-left: 15px;
+	text-decoration: none;
+
+}
+#canadawidefull2 a:hover {
+	color: #FFF;
+	font-size: 11px;
+	text-decoration: underline;
+}
+ #specialscan {
+	position: absolute;
+	margin: 0px;
+    width:966px;
+    top:157px;
+	z-index: 2;
+}
+
+/* PROMOTIONS SECTION */
+
+#promoSection{
+	float:left;
+	margin:0px;
+	padding:0px;
+	padding-left:10px;
+	padding-bottom:10px;
+	width:100%;
+}
+
+#promoLeftColumn{
+	float:left;
+	margin:0px;
+	padding:0px;
+	width:300px;
+	height:100%;
+}
+
+#promoRightColumn{
+	float:left;
+	margin:0px;
+	padding:0px;
+	padding-left:5px;
+	width:300px;
+}
+
+#promoRowBlue{
+	float:left;
+	width:285px;
+	background-color:#d9eaee;
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-image: url(images/menu/bulletred.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+
+#promoRowEmpty{
+	float:left;
+	width:570px;
+	height:40px;
+	background-color:#d9eaee;
+	padding-left:35px;
+	padding-top:35px;
+	padding-bottom:5px;
+	background-image: url(images/menu/magnify.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+
+#promoRowWhite{
+	float:left;
+	width:285px;
+	background-color:#FFFFFF;
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-image: url(images/menu/bulletred.gif);
+	background-position: 3px;
+	background-repeat: no-repeat;
+}
+
+#promoSection a {
+	color: #0A4280;
+	font-size: 12px;
+	text-decoration: underline;
+
+}
+#promoSection a:hover {
+	color: #CA0000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+
+#englandwide {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	border: 10px solid #b2c3d2;
+	background-color: #FFFFFF;
+}
+#englandwide table {
+	width: 448px;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+}
+
+#englandwide h2 {
+	color: #FFFFFF;
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: lighter; 
+	margin: 0px;
+	height: 34px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-image: url(images/menu/englandBG.gif);  
+	background-repeat: no-repeat; 
+}
+#englandwide a {
+	color: #04215C;
+	font-size: 11px;
+	text-decoration: underline;
+}
+#englandwide a:hover {
+	color: #CA0000;
+	font-size: 11px;
+	text-decoration: none;
+}
+#italywide {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	border: 10px solid #b9d7a5;
+	background-color: #FFFFFF;
+}
+#italywide table {
+	width: 448px;
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+}
+
+#italywide h2 {
+	color: #FFFFFF;
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: lighter; 
+	margin: 0px;
+	min-height: 40px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background-image: url(images/menu/italyBG.gif);  
+	background-repeat: no-repeat; 
+}
+#italywide a {
+	color: #04215C;
+	font-size: 11px;
+	text-decoration: underline;
+}
+#italywide a:hover {
+	color: #CA0000;
+	font-size: 11px;
+	text-decoration: none;
+}
+.titlesBlackBG {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px 0px 10px 0px;
+	height: 35px;
+	padding: 6px;
+	background-image: url(images/menu/canadawideBG.gif);
+	background-repeat: repeat-x;
+}
+.titlegrad  {
+	margin: 10px 0px;
+	padding: 10px;
+	background-image: url(images/titlegrad.jpg);
+	background-repeat: repeat-x;
+	color: #333;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px dotted #cccccc;
+	
+}
+
+.featuresHotels {
+	background-color:#FFFFFF;
+	padding-top:5px;
+	padding-bottom:10px;
+	width:275px;
+	height:100%;
+	border: 1px solid #CCCCCC;
+	text-align:left;
+
+	}
+
+
+#greecefeatures{
+	background-color: #C0DCE4;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	text-align:center;
+	width:100%;
+
+}
+
+/*#greecefeatures table {
+	background-color: #FFFFFF;
+	border: 0px solid #CCCCCC; 
+	margin: 0px 10px 10px 10px;
+	font-size: 11px;
+	width: 658px;
+}*/
+
+#greecefeatures h1 {
+	font: 26px Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #000;
+	font-weight: bold;
+	margin: 0px;
+	padding: 14px;
+	border-bottom: 1px solid #C0DCE4;
+	background-color:#FFFFFF;
+}
+#greecefeatures h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0A4280;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: hidden;
+}
+
+#greecefeatures table {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC; 
+	margin: 0px 10px 10px 10px;	
+	font-size: 11px;
+	width: 605px;
+	padding: 15px;
+}
+
+#indexfeatures {
+	background-color: #C0DCE4;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+}
+#indexfeatures a {
+	text-decoration: underline;
+}
+#indexfeatures a:hover {
+	text-decoration: none;
+	color: #CA0000;
+}	
+#indexfeatures table {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC; 
+	margin: 0px 10px 10px 10px;
+	font-size: 11px;
+	width: 438px;
+}
+
+#indexfeatures h1 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 10px;
+	padding-top: 7px;
+	padding-left: 10px;
+	padding: 7px 10px;
+	background-image: url(images/indexBGfeatured2.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border-bottom: 0px solid #C0DCE4;
+}
+#indexfeatures h1 a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	text-decoration: none;
+}
+#indexfeatures h1 a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#indexfeatures h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0A4280;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: hidden;
+}
+
+.indexfeaturesimg {
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 3px;
+	padding: 3px;
+	width: 74px;
+	height: 58px;
+}
+.giveawayimg {
+	border: 0px solid #CCCCCC;
+	float: left;
+	margin-right: 6px;
+	padding: 3px;
+}
+.givawayimg a{
+	border: 0px solid #CCCCCC;
+}
+.giveaway{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #000;
+	font-size: 9px;
+	text-align:center;
+}
+#indexfeatures2 {
+	overflow: hidden;
+	margin: 0px;
+	padding: 10px 0px 10px 10px;
+}
+#indexfeatures2 a {
+	text-decoration: underline;
+}
+#indexfeatures2 a:hover {
+	text-decoration: none;
+	color: #CA0000;
+}	
+#indexfeatures2 table {
+	background-color: #F1F1F1;
+	border: 1px solid #CCCCCC;
+	padding: 6px; 
+	margin: 10px 0px;
+	font-size: 11px;
+	width: 585px;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+#indexfeatures2 h1 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0px;
+	height: 42px;
+	padding-top: 7px;
+	padding-left: 10px;
+	background-image: url(images/menu/indexBGfeatured.gif);
+	background-repeat: no-repeat;
+	border-bottom: 0px solid #C0DCE4;
+}
+#indexfeatures2 h1 a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	text-decoration: none;
+}
+#indexfeatures2 h1 a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#indexfeatures2 h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0A4280;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: hidden;
+}
+#indexfeatures2 .pricesbig a { font-size: 20px; }
+
+.indexfeaturesimg2 {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 6px;
+	padding: 5px;
+	width: 130px;
+	height: 90px;
+}
+
+#indexfeatures3 table {
+	background-color: #ffffff;
+	border: 1px solid #CCCCCC;
+	padding: 6px; 
+	margin: 10px 0px;
+	font-size: 11px;
+	width: 645px;
+	line-height: 20px;
+	font-size: 13px;
+	text-decoration:none;
+}
+
+#indexfeatures3 {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+}
+
+#indexfeatures3 h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0A4280;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: hidden;
+}
+
+.indexfeaturesimg3 {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 6px;
+	padding: 5px;
+	display:block;
+	clear:both;
+	
+}
+
+#indexfeatures4 table {
+	background-color: #ffffff;
+	border: 1px solid #CCCCCC;
+	padding: 6px; 
+	margin: 10px 0px;
+	font-size: 11px;
+	width: 458px;
+	line-height: 20px;
+	font-size: 13px;
+	text-decoration:none;
+}
+
+.featuredpictureleft {
+	border: 1px solid #CCCCCC;
+	margin: 0px 5px 4px 5px;
+	padding: 0px;
+	clear: right;
+	background-color: #FFFFFF;
+}
+#hotelsearchheader  {  
+	background-image:url(http://www.redtag.ca/images/leftcol2_tall.jpg);
+	background-position:bottom;
+	background-repeat:repeat-x;	
+	width:441px;
+	height:35px;
+	margin-top:10px;
+						
+	}
+
+.hotelsearchheaderText {
+	padding-left:15px;
+	padding-top:2px;
+	font-family:Lucida Grande, Arial, Helvetica, sans-serif; 
+	font-size:18px;
+	color:#FFFFFF;
+	text-align:left;
+	text-decoration:none;
+	}
+	
+.hotelsearchhotratebg {
+	background-color: #F1F1F1;
+	
+	}
+
+.hotelsearchhotratebg a {
+	text-decoration:none;
+	
+}
+
+.hotelfeatures {
+	background-color:#073364;
+	width:277px;
+	height:30px;
+	margin-top:10px;
+
+	}
+.hotelfeaturesText {
+	padding-left:15px;
+	padding-top:7px;
+	font-family:Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFFFFF;
+	text-align:left;
+	}
+
+.rate1 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11pt; 
+	color: #CA0000;
+	padding:3px auto 3px 10px;
+	vertical-align:top;
+}
+
+.rate2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 9pt; 
+	color: #333333;
+}
+
+.rate3 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	color: #cc0000;
+}
+
+.rate4 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	color: #06538c;
+}
+.greybars {
+	font-size: 11px;
+	color: #333333; 
+	background-color: #F1F1F1; 
+	padding: 1px 21px 2px 1px;
+	margin: 10px;
+	text-align: right;
+	background-image: url(images/bulletred2.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+	border: 1px solid #CCCCCC; 
+}
+#contenthotels .greybars { margin: 10px 0px 0px 0px; }
+
+.titlesFeatured {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0px;
+	height: 42px;
+	padding-top: 14px;
+	padding-left: 10px;
+	background-image: url(images/menu/indexBGfeatured.gif);
+	background-repeat: no-repeat;
+	border-bottom: 0px solid #C0DCE4;
+}
+
+.greeceFeatured {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 22px;
+	font-weight: normal;
+	margin-left: 0px;
+	border-bottom: 0px solid #C0DCE4;
+	width:100%;
+	border: 1px #ccc solid;
+	background-image: url(images/greecepackages.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+	
+}
+.titlesFeatured a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.titlesFeatured a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 22px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#titlesFeatures {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0px;
+	height: 42px;
+	padding-top: 14px;
+	padding-left: 10px;
+	background-image: url(images/menu/indexBGfeatured.gif);
+	background-repeat: no-repeat;
+	border-bottom: hidden;
+}
+.titlesFlight {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #333333; 
+	font-size: 22px; 
+	font-weight: normal;
+	margin: 0px 0px 5px 0px;
+	height: 42px;
+	padding-top: 14px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	background-image: url(images/menu/indexFlightTitle.gif); 
+	background-repeat: no-repeat;
+}
+.indextitlesflight {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 12px;
+/*	background-image: url(images/menu/indextitlesflight2.gif);
+	background-repeat: no-repeat; 
+	width: 215px;
+	height: 32px; */
+	background-color: #F3A50E;
+	margin: 10px;
+	padding: 4px;
+/*	border-bottom: 1px solid #CCCCCC; */
+}
+.indextitlesflight a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+.indextitlesflight a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: underline;
+}
+#contentsplit .pictureleft {padding: 0px;}
+
+.indextitles3to5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #073364;
+	font-weight: bold;
+	background-image: url(images/menu/indextitles35day2.gif);
+	background-repeat: no-repeat;
+	width: 214px; 
+	height: 32px;
+	margin: 0px 0px 2px 0px;
+	padding: 10px 4px 7px 10px;
+}
+.indextitles3to5 a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #073364;
+	font-weight: bold;
+	font-size: 13px;
+}
+.indextitleseurope {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #073364;
+	font-weight: bold; 
+	background-image: url(images/menu/indextitleseurope2.gif);
+	background-repeat: no-repeat;
+	width: 215px;
+	height: 32px;
+	margin: 0px 0px 2px 0px;
+	padding: 10px 4px 7px 10px;
+}
+.indextitleseurope a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #073364;
+	font-weight: bold;
+	font-size: 13px;
+}
+.indextitleshotels {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #073364;
+	font-weight: bold;
+	background-image: url(images/menu/indextitleshotels2.gif);
+	background-repeat: no-repeat;
+	width: 214px; 
+	height: 32px;
+	margin: 0px 0px 2px 0px;
+	padding: 10px 4px 7px 10px;
+}
+.indextitleshotels a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #073364;
+	font-weight: bold;
+	font-size: 13px;
+}
+.titlesconquest { 
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #005AC3;
+	margin: 10px;
+	padding: 4px;
+}
+.titlesconquest a { color: #FFFFFF }
+.titlessignature {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #0283C5;
+	margin: 10px;
+	padding: 4px;
+}
+.titlessignature a { color: #FFFFFF }
+.titlessunquest {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #CA0000;
+	margin: 10px;
+	padding: 4px;
+}
+.titlessunquest a { color: #FFFFFF }
+
+.fullmargin .titlessunquest { margin: 20px 0px 10px 0px; }
+
+.titlesacv {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #00349A;
+	margin: 10px;
+	padding: 4px;
+}
+.titlesacv a { color: #FFFFFF }
+.titlessunwing {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #fe9f1f;
+	margin: 10px;
+	padding: 4px;
+}
+.titlessunwing a { color: #FFFFFF }
+.titlessunwingPackage {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #fe9f1f;
+	margin: 10px;
+	padding:4px;
+}
+.centertitles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+	height: 30px;
+	padding: 6px;
+	background-image: url(images/menu/canadawideBG.gif);
+	background-repeat: repeat-x;
+}
+#midtitlesblue {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px;
+	height: 34px;
+	padding: 8px 10px 6px 10px;
+	background-image: url(images/menu/titlesBGmidblue.gif);
+	background-repeat: repeat-x;
+}
+#midtitlesblue a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#midtitlesblue a:hover {
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#midtitlesred {
+	font-family: "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+	height: 23px;
+	padding: 6px 10px 6px 10px;
+	background-image: url(images/menu/titlesredBG.gif);
+	background-repeat: repeat-x;
+}
+#midtitlesred a {
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#midtitlesred a:hover {
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.verticallineleft {
+	border-left: 1px solid #CCCCCC;
+}
+.bottomline {
+	border-bottom: 1px solid #CCCCCC;
+}	
+	
+#contentsplit {
+	font-size: 11px;
+	color: #333333;
+	padding: 0px;
+	overflow: hidden;
+}
+#contentsplit p {
+	text-align: left;
+	font-size: 11px;
+}
+/*#contentsplit a{
+	text-decoration: underline;
+}*/
+#contentsplit a:hover {
+	text-decoration: none;
+}
+#contentsplit h2 {
+	font-size: 11px;
+	color: #0a4280;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+#contentsplit table {
+	margin: 5px 10px;
+	width: 208px;
+	height: 100px;
+}
+#contentsplit td {
+	border-bottom: 1px solid #CCCCCC;
+	padding: 3px;
+	line-height: 15px;
+}
+#contentsplit2 {
+	font-size: 11px;
+	color: #333333;
+	padding: 0px;
+}
+#contentsplit2 p {
+	text-align: left;
+	font-size: 12px;
+}
+/*#contentsplit a{
+	text-decoration: underline;
+}*/
+#contentsplit2 a:hover {
+	text-decoration: none;
+}
+#contentsplit2 h2 {
+	font-size: 13px;
+	color: #CA0000;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+#contentsplit2 table {
+	margin: 5px 10px 5px 10px;
+	width: 312px;
+	height: 200px;
+}
+#contentsplit2 td {
+	border-bottom: 1px solid #CCCCCC;
+	padding: 3px;
+	line-height: 15px;
+}
+
+#contentsplit3 {
+	font-size: 11px;
+	color: #333333;
+	padding: 0px;
+}
+#contentsplit3 p {
+	text-align: left;
+	font-size: 12px;
+}
+/*#contentsplit a{
+	text-decoration: underline;
+}*/
+#contentsplit3 a:hover {
+	text-decoration: none;
+}
+#contentsplit3 h2 {
+	font-size: 13px;
+	color: #CA0000;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+#contentsplit3 table {
+	margin: 2px 5px 2px 5px;
+	width: 312px;
+	height: 200px;
+}
+#contentsplit3 td {
+	border-bottom: 1px solid #CCCCCC;
+	
+}
+#contenthotels {
+	font-size: 10px;
+	color: #333333;
+	padding:0px 10px 10px 10px;
+	margin: 0px;
+}
+#contenthotels p {
+	text-align: left;
+	font-size: 11px;
+}
+
+#contenthotels a:hover {
+	text-decoration: none;
+}
+#contenthotels h2 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+#contenthotels h1 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: lighter;
+	text-align:left;
+	color: #333333;
+	border-bottom: 1px solid #CCCCCC; 
+	margin: 0px 0px 14px 0px;
+	padding-top: 5px; 
+	padding-bottom: 12px;
+}
+.picborder {
+	padding: 4px;
+	border: 1px solid #CCCCCC;
+}
+
+#contenthotels table {
+	width: 418px; 
+}
+#contenthotels td {
+	border-bottom: 1px dotted #999999;
+	height: 40px;	
+	line-height: 15px;
+} 
+.bluelinks  {
+	color: #0a4280;
+}
+.bluelinks a {
+	color: #0a4280;
+}
+.bluelinks a:hover {
+	color: #CA0000
+}
+
+.textsmaller{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+
+
+.cruisesmall{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	border:none;
+	padding:0px 0px 0px 8px;
+	margin:0px;
+}
+.pricesbig { 
+	color: #CA0000;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.pricesbig a {
+	color: #CA0000;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.pricesbig a:hover {
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	color: #3085a7;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.cruisepricesmall{
+	padding:0px 0px 0px 8px;
+	margin:0px;
+}
+
+.cruisepricesmall a {
+	color: #CA0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+.cruisepricesmall a:hover {
+	color: #0055AA;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.pricessmall a {
+	color: #CA0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+.pricessmall a:hover {
+	color: #0055AA;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+INPUT, TEXTAREA, SELECT, OPTION  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-transform: none;
+/*	text-transform: uppercase; */
+}
+#searchHotels {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 90px 25px 20px 25px;
+	background-image: url(images/search/searchHotels.jpg);
+	background-repeat: no-repeat;
+	height: 289px;
+/*	max-height: 302px; */
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#searchHotelsNiagara {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 90px 25px 20px 25px;
+	background-image: url(images/searchEngineNiagara.jpg); 
+	background-repeat: no-repeat;
+	height: 217px;
+/*	max-height: 302px; */
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+/*#searchVacations {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 90px 25px 20px 25px;
+	background-image: url(images/searchVacationsBG4.jpg);
+	background-repeat: no-repeat;
+	height: 312px;
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#searchVacations h3 {margin: 2px 10px 20px 25px; font: bold 2em Arial, Helvetica, sans-serif; }*/
+#searchVacations {
+	color:#333333;
+	font: bold 1em Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	margin: 0px;
+	padding: 25px 25px 20px 25px;
+	background-image: url(images/searchVacationsBG5.gif);  
+	background-repeat: no-repeat;
+	height: 378px;
+/*	max-height: 302px; */
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#searchVacations h3 {text-align: center; margin: -5px 10px 23px 0px; padding: 0px; font: bold 1.8em Arial, Helvetica, sans-serif; text-transform: uppercase; color: #046ca1;}
+#searchVacations h4 {text-align: center; margin: 0px 10px 0px 0px; padding: 0px; font: bold 1.5em Arial, Helvetica, sans-serif; color: #000;}
+#searchCars {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 90px 25px 20px 25px;
+	background-image: url(images/searchCarsBG.jpg);
+	background-repeat: no-repeat;
+	height: 312px;
+/*	max-height: 302px; */
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#euroVacations {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 90px 25px 20px 25px;
+	background-image: url(images/searchVacationsBG4.jpg);
+	background-repeat: no-repeat;
+	height: 210px;
+/*	max-height: 302px; */
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#searchGreece{
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 90px 25px 20px 25px;
+	background-image: url(images/searchGreecebg.jpg);
+	background-repeat: no-repeat;
+	height: 240px;
+/*	max-height: 302px; */
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+	background-color:#fff;
+}
+.dropdown1  {
+	color: #000;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	text-transform: none;
+	margin: 0px;
+	border-bottom: 1px solid #DBDBDB;
+	background-color: #FFF;
+	padding: 1px 1px 0px 1px;	
+/*	text-transform: uppercase; */
+}
+.dropdown2  {
+	color: #003399;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	border-bottom: 1px solid #DBDBDB;	
+	margin: 0px;
+	padding: 1px 1px 0px 8px;	
+	text-transform: none;
+	
+/*	text-transform: uppercase; */
+}
+/*
+#searchFlights {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 90px 25px 20px 25px;
+	background-image: url(images/searchFlightsBG.jpg);
+	background-repeat: no-repeat; 
+	height: 312px;
+	max-height: 302px; 
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+*/
+#searchFlights {
+	color:#333333;
+	font: bold 1em Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	margin: 0px;
+	padding: 30px 25px 20px 25px;
+	background-image: url(http://www.redtag.ca/images/new_images/searchFlightsBG5.gif); 
+	background-repeat: no-repeat;
+	height: 375px;
+/*	max-height: 302px; */
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#searchFlights h3 {text-align: center; margin: -5px 10px 18px 0px; padding: 0px; font: bold 1.8em Arial, Helvetica, sans-serif; text-transform: uppercase; color: #046ca1;}
+#searchFlights h4 {text-align: center; margin: 0px 10px 0px 0px; padding: 0px; font: bold 1.5em Arial, Helvetica, sans-serif; color: #000;}
+
+#searchCruises8 {
+	color:#333333;
+	font: bold 1em Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	margin: 0px;
+	padding: 30px 25px 20px 25px;
+	background-image: url(http://www.redtag.ca/images/new_images/searchFlightsBG5.gif); 
+	background-repeat: no-repeat;
+	height: 365px;
+/*	max-height: 302px; */
+	overflow: hidden;
+}
+#searchCruises8 h3 {text-align: center; margin: -5px 10px 18px 0px; padding: 0px; font: bold 1.8em Arial, Helvetica, sans-serif; text-transform: uppercase; color: #046ca1;}
+#searchCruises8 h4 {text-align: center; margin: 0px 10px 0px 0px; padding: 0px; font: bold 1.5em Arial, Helvetica, sans-serif; color: #000;}
+
+
+#searchCruises1 {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 115px 25px 0px 25px;
+	background-image: url(images/searchCruise1.jpg);
+	background-repeat: no-repeat;
+	height: 342px;
+/*	max-height: 302px; */ 
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#searchCruises {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 115px 25px 0px 25px;
+	background-image: url(images/searchCarnival.jpg);
+	background-repeat: no-repeat;
+	height: 342px;
+/*	max-height: 302px; */ 
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#searchCruisesDisney {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 115px 25px 0px 25px;
+	background-image: url(images/searchDisney.jpg);
+	background-repeat: no-repeat;
+	height: 342px;
+/*	max-height: 302px; */ 
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#searchCruisesDisney {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 115px 25px 0px 25px;
+	background-image: url(images/searchDisney.jpg);
+	background-repeat: no-repeat;
+	height: 342px;
+/*	max-height: 302px; */ 
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+#searchCruisesWindstar {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 115px 25px 0px 25px;
+	background-image: url(images/searchWindstar.jpg);
+	background-repeat: no-repeat;
+	height: 342px;
+/*	max-height: 302px; */ 
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+.inputerwidth {
+	width: 220px;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+.rightsidebanner {
+	margin: 0px 0px 1px 0px;
+	background-color: #FFFFFF;
+	border: 10px solid #FFFFFF;
+}
+.agents45 {
+	margin: 0px 0px 0px 0px;
+	padding: 75px 20px 10px 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;	
+	line-height: 19px;
+	background-image: url(images/menu/agents45.gif); 
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	height: 68px;
+	border: 10px solid #F1F1F1;
+}
+.agents451 {
+	margin: 0px 0px 0px 10px;
+	padding: 75px 0px 0px 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;	
+	line-height: 19px;
+	background-image: url(images/menu/agents45.gif); 
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	height: 68px;
+	width:280px;
+	border: 1px solid #CCCCCC;
+}
+.agentsGroup {
+	margin: 0px 0px 0px 0px;
+	padding: 75px 0px 10px 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;	
+	line-height: 19px;
+	background-image: url(images/menu/agentsGroup.jpg); 
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	height: 68px;
+	border: 2px solid #C3DDE8;
+}
+.redTitles {
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 21px;
+	color: #CA0000;
+	padding-bottom: 6px;
+}
+.linegrey {
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+}
+.bottLine {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#traveladvisory h2 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align:left;
+	color: #333333;
+	border-bottom: 1px solid #CCCCCC; 
+	margin: 10px 10px 10px 10px;
+	padding-bottom: 6px;
+}
+#traveladvisory h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:left;
+	color: #CA0000;
+	margin: 0px 10px 10px 10px;
+}
+#traveladvisory {
+	font-size: 12px;
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+	text-align: justify;
+	background-color: #FFFFFF;
+}
+#airport h2 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align:left;
+	color: #333333;
+	border-bottom: 1px solid #CCCCCC; 
+	margin: 10px 10px 10px 10px;
+	padding-bottom: 6px;
+}
+#airport h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:left;
+	color: #CA0000;
+	margin: 0px 10px 10px 10px;
+}
+#airport {
+	font-size: 12px;
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+	text-align: justify;
+	background-color: #FFFFFF;
+}
+#bgwhite {
+	font-size: 12px;
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+	text-align: justify;
+	background-color: #FFFFFF;
+}
+#hotspot {
+	font-size: 12px;
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+	text-align: justify;
+	background-color: #FFFFFF;
+}
+#hotspot p { 	line-height: 20px; }
+#hotspot img {
+	margin: 0px 10px 4px 10px;
+	padding: 4px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+#hotspot h1 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: lighter;
+	text-align:left;
+	color: #333333;
+	border-bottom: 1px solid #CCCCCC; 
+	margin: 0px 10px 14px 10px;
+	padding-top: 5px; 
+	padding-bottom: 12px;
+}
+#hotspot h1 a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: lighter;
+	color: #333333;	
+	text-decoration: none;
+}
+#hotspot h1 a:hover { color: #CA0000;}
+#hotspot h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:left;
+	color: #CA0000;
+	margin: 0px 10px 10px 10px;
+}
+#hotspot h2 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:left;
+	color: #CA0000;
+}
+#hotspot li {padding-right: 20px;}
+#generalcontent {
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+	text-align: justify;
+	background-color: #FFFFFF;
+}
+.pictureleft {
+	border: 1px solid #CCCCCC;
+	margin: 0px 6px 4px 10px;
+	padding: 4px;
+	clear: right;
+	background-color: #FFFFFF;
+}
+.pictureright {
+	border: 1px solid #CCCCCC;
+	margin: 0px 10px 4px 6px;
+	padding: 4px;
+}
+.titlesDarkWhite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.titlesDarkWhite a:link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.titlesDarkWhite a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;	
+}
+.titlesDarkWhite a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;	
+}
+.whiteHotel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 6px;
+	text-decoration: none;
+	vertical-align: middle;	
+}
+.whiteHotel a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.whiteHotel a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.whiteHotel a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.topborder {
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-top-width: 1px;
+}
+#vancouverbanner {
+	border: 10px solid #FFFFFF;
+	margin-bottom: 20px;
+	background-image: url(images/cities/city-vancouver.jpg);
+	background-repeat: no-repeat;
+	height: 180px;
+}
+.vancouverbanner {
+	padding: 15px 15px 15px 500px;
+}	
+.breadcrum {
+	color: #333333;
+	font-weight: bold;
+	font-size: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;	
+	margin-top: 10px;
+	padding: 0px 10px 1px 10px;
+	background-color: #FFFFFF;
+}
+
+.breadcrum a:link {
+	color: #CA0000;
+	font-size: 10px;
+	text-decoration: underline;
+}
+.breadcrum a:visited {
+	color: #CA0000;
+	text-decoration: underline;
+}
+.breadcrum a:hover {
+	color: #CA0000;
+	text-decoration: none;
+}
+.titlessmall {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-weight: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-image: url(http://www.redtag.ca/images/bulletarrowgray2.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 6px; 
+	background-color: #F3A50E;
+	margin: 10px 10px 0px 10px;
+	padding: 4px 4px 4px 20px;
+	text-align: left;
+}
+.titlessmall a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+.titlessmall a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: underline;
+}
+#cityguide {
+	text-decoration:none;
+	text-align: left;
+	color:#333333;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px 10px 0px 10px;
+
+  }
+#cityguide a, #cityguide a:visited {
+	text-decoration:none;
+	text-align: left;
+	color: #333333;
+	font-weight: bold;
+	display:block;
+	margin-top: 1px;
+	padding: 0px 2px 0px 4px;
+	background-color: #FEE8C2;
+/*	background-image: url(http://www.redtag.ca/images/arrowred.gif);
+	background-repeat: no-repeat;
+	background-position: left; */
+}
+
+#cityguide a:hover {
+	color: #FFFFFF;
+ 	text-decoration: none;
+ 	background-color: #333333;
+/*	background-image: url(http://www.redtag.ca/images/bulletarrowgray2.gif);
+	background-repeat: no-repeat;
+    background-position: right; */
+}
+
+#eventticketstours{
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	background-color:#FFFFFF; 
+	padding:0px 5px 10px 5px;
+	margin:0px 0px 0px 0px;
+}
+
+
+.eventticketsrightMenuTitles {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	background-color:#111111;
+	background-position: 0px;
+	margin: 0px 4px 0px 5px;
+	border-top: 1px solid #4e4c4c;
+	padding: 6px 0px 6px 20px;
+}
+
+.eventticketsrightMenuWide {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 12px;
+	background-color: #333333;
+	background-image:url(images/arrow-right-grey.jpg);
+	background-repeat: no-repeat;
+	background-position:22px 9px;
+	margin: 0px 4px 0px 5px;
+	padding: 4px 0px 5px 40px;
+	border-bottom: 1px solid #1b1b1b;
+	border-top: 1px solid #4e4c4c;
+	text-transform:uppercase;
+}
+.eventticketsrightMenuWide a:visited { 
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color:#FFFFFF; 
+	font-size:11px; 
+	text-decoration: none;
+}
+
+.eventticketsrightMenuWide a:link {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif; 
+	color:#FFFFFF; 
+	font-size:11px; 
+	text-decoration: none;
+}
+
+.eventticketsrightMenuWide a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif; 
+	color:#FFFFFF; 
+	font-size:11px; 
+	text-decoration:underline;
+}
+
+.eventticketsrightMenuWide a:active {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif; 
+	color:#FFFFFF; 
+	font-size:11px; 
+	text-decoration: none;
+}
+
+
+
+.RightCruiseTitles {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+/*	background-color: #2c6197; */
+	height: 20px;
+	margin: 0px 10px 0px 10px;
+	padding: 5px 5px 4px 5px;
+	background-color: #FFFFFF;
+	background-image: url(http://www.redtag.ca/images/leftcol2.jpg);
+	background-repeat: repeat-x;
+}
+.RightCruiseTitles a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+.RightCruiseTitles a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.RightCruiseTitles2 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+/*	background-color: #2c6197; */
+	height: 20px;
+	margin: 0px;
+	padding: 5px 5px 4px 5px;
+	background-color: #FFFFFF;
+	background-image: url(http://www.redtag.ca/images/leftcol2.jpg);
+	background-repeat: repeat-x;
+}
+.RightCruiseTitles2 a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.RightCruiseTitles2 a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration:none;
+}
+#RightCruises {
+	background-color: #FFFFFF;
+	text-decoration:none;
+	text-align: left;
+	color:#333333;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px 10px 0px 10px;
+
+}
+#RightCruises a, #RightCruises a:visited {
+	text-decoration:none;
+	text-align: left;
+	color: #333333;
+	font-weight: bold;
+	display:block;
+	margin-top: 4px;
+	padding: 5px 2px 5px 35px;
+	background-image: url(http://www.redtag.ca/images/arrowred.gif);
+	background-repeat: no-repeat;
+	background-position: 14px 8px; 
+	border: 1px solid #e1e1e1; 
+	background-color: #f1f1f1;
+ 
+}
+
+#RightCruises a:hover {
+	color: #CA0000;
+ 	text-decoration: underline;
+ 	background-color: #FFFFFF;
+/*	background-image: url(http://www.redtag.ca/images/bulletarrowgray2.gif);
+	background-repeat: no-repeat;
+    background-position: right; */
+}
+    
+	
+	
+	
+	#RightTravelGuide {
+	text-decoration:none;
+	text-align: left;
+	color:#333333;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+
+}
+#RightTravelGuide a, #RightTravelGuide a:visited {
+	text-decoration:none;
+	text-align: left;
+	color: #333333;
+	font-weight: bold;
+	display:block;
+	margin-top: 4px;
+	padding: 5px 2px 5px 35px;
+	background-color: #F1F1F1;
+	background-image: url(http://www.redtag.ca/images/arrowred.gif);
+	background-repeat: no-repeat;
+	background-position: 14px 8px; 
+/*	border-bottom: 1px solid #CCCCCC; */
+}
+
+#RightTravelGuide a:hover {
+	color: #CA0000;
+ 	text-decoration: underline;
+ 	background-color: #FFFFFF;
+/*	background-image: url(http://www.redtag.ca/images/bulletarrowgray2.gif);
+	background-repeat: no-repeat;
+    background-position: right; */
+}
+	
+#footer {
+	clear:both;
+	font-size: 11px;
+	line-height: 18px;
+
+}
+#footer a {
+	font-size: 11px;
+	color: #333333;
+	text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+#footer th {
+	font: bold 14px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-align: left;
+	background: url(https://secure.redtag.ca/images/backpages/th-bg.gif) repeat-x top;
+	border-bottom: 1px solid #475a6a;
+	border-top: #819eb7;
+}
+.footerarrow {
+	margin: 0px 8px 0px 4px;
+}
+.TDbottLine2 {
+
+	background-color: #E5EDF0;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #BED5E5;
+}
+
+.twelvePtBldRed {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CA0000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.twelvePtBld2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #044372;
+	line-height: 20px;
+}
+.twelvePtBld2 a:link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #044372;
+	text-decoration: underline;
+}
+.twelvePtBld2 a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #044372;
+	text-decoration: underline;
+}
+.twelvePtBld2 a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #CA0000;
+	text-decoration: underline;
+}
+
+.undy {
+	padding: 4px 6px 4px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #094584;
+	background-color: #F1F3F4;
+	border: 1px solid #BED5E5;
+}
+.undy a:link{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #094584;
+	text-decoration: underline;
+}	
+.undy a:visited{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #094584;
+	text-decoration: underline;
+}	
+.undy a:hover{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #094584;
+	text-decoration: none;
+}	
+.undy2 {
+	padding: 4px 6px 4px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003399;
+	background-color: #fbfcfd;
+	border: 1px solid #CCCCCC;
+}
+.undy2 a:link{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003399;
+	text-decoration: underline;
+}	
+.undy2 a:visited{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003399;
+	text-decoration: underline;
+}	
+.undy2 a:hover{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003399;
+	text-decoration: none;
+}
+
+.travelheading {
+   color: #CA0000; 
+   font-weight: bold; 
+}
+	
+.fullmargin10 {
+	margin: 10px;
+}
+.fullmargin10border {
+	padding: 10px 0px 0px 0px;
+}
+
+.breadcrum2 {
+	color: #333333;
+	font-weight: bold;
+	font-size: 10px;
+	border-bottom: 1px solid #CCCCCC;
+/*	border-top: 1px solid #CCCCCC;	*/
+	margin-top: 0px;
+	padding: 2px 10px 3px 10px;
+	background-color: #FFFFFF;
+}
+
+.breadcrum2 a:link {
+	color: #CA0000;
+	font-size: 10px;
+	text-decoration: underline;
+}
+.breadcrum2 a:visited {
+	color: #CA0000;
+	text-decoration: underline; 
+}
+.breadcrum2 a:hover {
+	color: #CA0000;
+	text-decoration: none;
+}
+/*from glish.com*/
+.titlesBig {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align:left;
+	color: #333333;
+	border-bottom: 1px solid #CCCCCC; 
+	margin: 10px 10px 10px 10px;
+	padding-bottom: 6px;
+	}
+.titlesBigCar {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align:left;
+	color: #333333;
+	border-bottom: 1px solid #CCCCCC; 
+	margin: 10px 10px 0px 10px;
+	}
+
+.sixteen {
+	font-size: 16px;
+	font-weight: bold;
+	}
+.sideBanner {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #044372;
+	line-height: 18px;
+	font-weight: bold;
+	padding: 4px;
+}
+.sideBanner a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #044372;
+	line-height: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.sideBanner a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #044372;
+	line-height: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.sideBanner a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CA0000;
+	line-height: 16px;
+	font-weight: bold;
+	text-decoration: underline;	
+}
+#children_box{
+	padding:0px;
+	display:none;
+	white-space:nowrap;
+} 
+.travelarticleTitles {
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	margin: 0px 0px 0px 0px;
+	padding-left: 5px;
+	padding-top: 5px; 
+	padding-bottom: 0px;
+	background-color: #F1F3F4;
+	border-right-style: none;
+	border-left-style: none;
+
+}
+.travelarticleTitles a:link {
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	margin: 0px 0px 0px 0px;
+	padding-left: 5px;
+	padding-top: 5px; 
+	padding-bottom: 0px;
+	text-decoration: none;
+
+}
+
+.travelarticleTitles a:visited {
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	margin: 0px 0px 0px 0px;
+	padding-left: 5px;
+	padding-top: 5px; 
+	padding-bottom: 0px;
+	text-decoration: none;
+
+}
+
+ .travelarticleTitles a:hover {
+	font-size: 16px;
+	font-weight: bold;
+	color: #CC0000;
+	margin: 0px 0px 0px 0px;
+	padding-left: 5px;
+	padding-top: 5px; 
+	padding-bottom: 0px;
+	text-decoration: none;
+}
+.mainmenuwhite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right:10px;
+}
+.mainmenuwhite a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.mainmenuwhite a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.mainmenuwhite a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.splitsleft {
+	width: 47%;
+	margin: 0px;
+	padding: 10px;
+	border-right: 1px solid #CCCCCC;
+	float: left;
+	background-color: #f1f1f1;
+	position: inherit;
+}
+.splitsright {
+	width: 47%;
+	margin: 0px;
+	padding: 10px;
+	background-color: #CCCCCC;
+	float:left;
+	position: inherit;
+}
+.whiteBG {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px; 
+}
+.verticallineleftwhite { border-left: 1px solid #FFFFFF;}
+
+#inChristmas {
+	background-color: #C0DCE4;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+}
+#inChristmas a {
+	text-decoration: underline;
+}
+#inChristmas a:hover {
+	text-decoration: none;
+	color: #CA0000;
+}	
+#inChristmas table {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC; 
+	margin: 0px 10px 10px 10px;
+	font-size: 11px;
+	width: 438px;
+}
+
+#inChristmas h1 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	background-color: #0A4280;
+	color:#FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 10px;
+	line-height: 22px;
+	padding: 5px 10px 5px 10px;
+}
+#inChristmas h1 a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+#inChristmas h1 a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#inChristmas h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0A4280;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: hidden;
+}
+/** here **/
+
+
+#inWinter {
+	background-color: #C0DCE4;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+}
+#inWinter a {
+	text-decoration: underline;
+}
+#inWinter a:hover {
+	text-decoration: none;
+	color: #CA0000;
+}	
+#inWinter table {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC; 
+	margin: 0px 10px 10px 10px;
+	font-size: 11px;
+	width: 458px;
+}
+
+#inWinter h1 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	height: 42px;
+	padding-top: 7px;
+	padding-left: 10px;
+	background-image:url(images/menu/indexBGfeatured.gif);
+	background-repeat: no-repeat;
+	border-bottom: 0px solid #C0DCE4;
+}
+#inWinter h1 a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+#inWinter h1 a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#inWinter h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0A4280;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: hidden;
+}
+
+
+.tiChristmas a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.tiChristmas a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#tiChristmas {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	height: 42px;
+	padding-top: 14px;
+	padding-left: 10px;
+	background-image:url(images/menu/indexBGchristmas2.gif);
+	background-repeat: no-repeat;
+	border-bottom: hidden;
+}
+
+.tiWinter a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.tiWinter a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#tiWinter {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	height: 42px;
+	padding-top: 14px;
+	padding-left: 10px;
+	background-image:url(images/menu/indexBGfeatured.gif);
+	background-repeat: no-repeat;
+	border-bottom: hidden;
+}
+.tablefeatured {
+	width: 478px;
+}
+.tablefeatured td {
+	width: 239px;
+}
+.lighttext {
+	color: #CCCCCC;
+	}
+.fullmarginC {
+	margin: 10px;
+}
+.car{
+	background-color:#f2f9f1}
+.car1{
+	background-color:#f1f7f9}
+
+.national {
+	margin:10px 10px 10px 10px;
+	color:#FFFFFF;
+	}
+.national {
+	margin:10px 10px 10px 10px;
+	color:#FFFFFF;
+	}
+.national a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.national a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+.national a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#00CC33;
+	text-decoration:none;
+}
+.plain { border: none; margin: 0px;}
+
+#contentrightforums {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px 0px 1px 0px; 
+	background-color: #FFFFFF;
+	border: 10px solid #d9eaee;
+	line-height: 16px; 
+}
+.contentRight_travelforums	a {		color:#ffffff;	}
+
+.contentRight_travelforums	a:visited a:hover a:active {		color:#ffffff;	}
+
+.titledrop {
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #333333;
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+.bluetexts { color: #0A4280; font-weight: bold; font-size: 12px;}
+.parking{
+	margin-left:10px;
+	margin-right:15px;
+	padding-left:15px;
+	padding-top:15px;
+	padding-bottom:0px;
+	font-family:Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.parkingline{
+	border-bottom: 1px solid #CCCCCC;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.parkingphone{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:left;
+	color: #CA0000;
+	vertical-align:top;
+	}
+	
+	#searchCars2 {
+	color:#333333;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 70px 25px 20px 20px;
+	background-image: url(http://www.redtag.ca/images/searchCarsBG.jpg);
+	background-repeat: no-repeat;
+	height: 350px;
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+	}
+	
+	
+	
+.line2 {
+	text-align:left;
+	border-bottom: 1px solid #CCCCCC; 
+}
+.redTitleText {
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #CA0000;
+}
+
+
+
+
+#touroperators {
+	overflow: hidden;
+	margin: 0px;
+	padding: 5px 5px 5px 5px;
+}
+#touroperators a {
+	text-decoration: underline;
+}
+#touroperators a:hover {
+	text-decoration: none;
+	color: #CA0000;
+}	
+#touroperators table {
+	background-color: #F1F1F1;
+	border: 1px solid #CCCCCC;
+	padding: 6px; 
+	margin: 10px 0px;
+	font-size: 11px;
+	width: 605px;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+#touroperators h1 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0px;
+	height: 42px;
+	padding-top: 7px;
+	padding-left: 10px;
+	background-image: url(images/menu/indexBGfeatured.gif);
+	background-repeat: no-repeat;
+	border-bottom: 0px solid #C0DCE4;
+}
+#touroperators h1 a {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	text-decoration: none;
+}
+#touroperators h1 a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#touroperators h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0A4280;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: hidden;
+}
+#touroperators .pricesbig a { font-size: 20px; }
+
+
+
+
+
+
+
+#hotelsMainGroup{
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	background-color:#FFFFFF; 
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	border:5px solid #FFFFFF;
+}
+
+
+.hotelsrightMenuTitles {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #A11C1F;
+	background-position: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 4px 20px;
+}
+
+.hotelsrightMenuWide {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333333;
+	font-size: 11px;
+	background-color: #F1F1F1;
+	/*background-image:url(images/arrow-right-blue.gif);*/
+	background-image: url(http://www.redtag.ca/images/arrowred.gif);
+	background-repeat: no-repeat;
+	background-position:6px 8px;
+	margin: 1px 0px 2px 0px;
+	padding: 2px 0px 3px 26px;
+	border-bottom: 1px solid #CCCCCC;
+
+	
+
+
+
+}
+.hotelsrightMenuWide a:visited { 
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color:#333333; 
+	font-size:11px; 
+	text-decoration: none;
+}
+
+.hotelsrightMenuWide a:link {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif; 
+	color:#333333; 
+	font-size:11px; 
+	text-decoration: none;
+}
+
+.hotelsrightMenuWide a:hover {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif; 
+	color:#333333; 
+	font-size:11px; 
+	text-decoration:underline;
+}
+
+.hotelsrightMenuWide a:active {
+font-family: Lucida Grande, Arial, Helvetica, sans-serif; 
+color:#333333; 
+font-size:11px; 
+text-decoration: none;
+}
+
+
+#touroperatorbanner{
+background-image:url(images/departurecitybanner_redtag.jpg);
+background-position:center;
+background-repeat:no-repeat;
+height:131px;
+margin:10px;
+}
+
+#touroperatorbannertext{
+font-family: Lucida Grande, Arial, Helvetica, sans-serif; 
+color:#FFFFFF;
+font-size:26px;
+font-weight:bold;
+padding-left:130px;
+padding-top: 25px;
+padding-bottom:20px;
+}
+
+
+#touroperatorbannertext h1{
+font-family: Lucida Grande, Arial, Helvetica, sans-serif; 
+color:#FFFFFF;
+font-size:30px;
+font-weight:bold;
+text-decoration:underline;
+border-bottom:none;
+margin-left:0px;
+margin-bottom:20px;
+padding:0px;
+}
+
+#leftmenutitlestall {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+	height: 40px;
+/*	background-color: #2c6197; */
+	background-color: #FFFFFF;
+	padding: 5px 5px 4px 5px;
+	background-image: url(http://www.redtag.ca/images/leftcol2_tall.jpg);
+	background-repeat: repeat-x;
+}
+
+#leftmenutitlestall a {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+/*	background-image: url(images/bulletred1.gif);
+	background-repeat: no-repeat;
+	background-position: left; */
+}
+#leftmenutitlestall a:hover {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+/*	padding-left: 15px;
+	background-image: url(images/bulletred1.gif);
+	background-repeat: no-repeat;
+	background-position: left; */
+}
+
+.smallHead3 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:normal;
+	text-align:center;
+}
+.smallHead3 a {
+	color:#0033CC;
+	text-decoration: underline;
+}
+
+.smallHead3 a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:#0033CC;
+	text-decoration:underline;
+}
+.smallHead3 a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:#0033CC;
+	text-decoration: underline;
+}
+.smallHead3 a:hover {
+	color:#000000;
+	text-decoration: none;
+}
+
+.selectedprices { 
+	color: #FFF;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.selectedprices a{ 
+	color: #FFF;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.selectedprices a:visited{ 
+	color: #FFF;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+#selectedouter {
+	background-color: #C0DCE4;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+}
+
+#selectedspecial {
+	background-color: #F1F1F1;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color:#FFFFFF;
+}
+#selectedspecial table {
+	background-color: #CA0000;
+	border: 1px solid #CCCCCC; 
+	margin: 0px 10px 10px 10px;
+	padding-top:7px;
+	padding-bottom:7px;
+	font-size: 11px;
+	width: 438px;
+}
+#selectedspecial h1 {
+	font-family: Lucida Grande, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 10px 10px 0px 10px;
+	/*height: 36px;*/
+	padding-top: 7px;
+	padding-left: 10px;
+	background-image: url(images/indexBGfeatured2.gif);
+	background-repeat: no-repeat;
+	border-bottom: 0px solid #C0DCE4;
+}
+#selectedspecial h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: hidden;
+}
+.pricesbigselected { 
+	color: #FFF;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.pricesbigselected a {
+	color: #FFF;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.pricesbigselected a:visited {
+	color: #FFF;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.selectedspecialimg {
+	border: 1px solid #CCCCCC;
+	background-color:#F1F1F1;
+	float: left;
+	margin-right: 6px;
+	padding: 2px;
+	width: 74px;
+	height: 58px;
+}
+.riu {height: 167px;}
+.riubottom { 
+	background-image:url(images/riubottom.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	padding: 4px 10px 5px 120px;
+	margin:0px;
+}
+
+.riubottom a {
+	color: #FFF;
+	padding-left: 38px; 
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform:uppercase;
+}
+.riubottom a:hover {
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform:uppercase;	
+}
+.zerospace {margin: 0px; padding:0px;}
+
+.rss-section { padding: 0px; margin: 0px; color: #0A4280;}
+.rss-section h3 {color: #0055aa; font-weight: bold; margin: 0px; padding:0px;}
+.rss-section h3 a{color: #0055aa; font-weight: bold; margin: 0px; padding:0px; text-decoration: underline; border-bottom: none; font-size: 13px;}
+.rss-section h3 a:hover{color: #0055aa; font-weight: bold; margin: 0px; padding:0px; border-bottom: none; font-size: 13px; text-decoration: none;}
+.rss-section a {
+/*	background-image: url(images/menu/bulletred.gif);
+	background-position: 5px;
+	background-repeat: no-repeat;*/
+/*	color: #0A4280;*/
+	color: #333;
+	font-size: 11px;
+/*	padding-left: 15px;*/
+	text-decoration: none;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #CCC;
+	display: block;
+}
+.rss-section a:hover {
+	color: #666;
+	font-size: 11px;
+	text-decoration: underline;
+}
+rss-section p {
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+.rss-section-header {
+	background-color: #efeae5;
+	margin: 0px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+.rss-section-header h2{
+	color: #000;
+	font-size: 20px;
+	font-weight: normal;
+	font: bold 22px Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 10px;
+	padding: 7px 10px;
+	background-image: url(http://www.redtag.ca/images/experience/travelinfotitle-bg.png);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.brer {
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+}
+#pop99 p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+	margin-top: 0px;
+	color: #004566;
+}
+#pop99 h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0px 0px 0px 0px;
+	color: #004566;
+	border-bottom: 1px dotted #004566;
+	font-weight: bold;
+}
+#pop99 h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	color: #004566;
+	font-weight: bold;
+}
+#popLeft{
+	text-align: right;
+	padding-right: 5px;
+	font-weight: bold;
+}
+#destinationsRiu a { 
+	background-image: url(images/arrow-red.gif); 
+	background-position: left; 
+	background-repeat:no-repeat; 
+	padding-left: 10px; 
+	padding-right: 10px;
+	color: #000033;
+	font-size:11px;
+	font-weight: normal;
+}
+.bluetext{
+	color:#073364;
+	font:Times New Roman, Times, serif;
+	font-size:14px;
+	}
+.banner { width: 966px; height: 200px; position: relative;}
+
+.banner .bannerimage, .banner .bannerbg { position: absolute; }
+  .banner .bannerimage {    top: 10px; right: 10px; z-index: 2; }
+  .banner .bannerbg { bottom: 0;  left: 0; z-index: 1; }	
+
+.contestList li{
+	padding: 5px 10px 5px 0px;
+}	
+
+.contestImage{
+	margin: 10px 0px 0px 5px;
+}	
+
+.groupImage{
+	margin: 12px 0px 0px 15px;
+}
+.redlink{color:#000000;}
+.redlink a:link{color:#000000; text-decoration:underline;}
+.redlink a:visited{color:#000000; text-decoration:underline;}
+.redlink a:hover{color:#ca0000; text-decoration:none;}
+.redlink a:active{color:#ca0000;}
+
+
+.airportpark {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:left;
+vertical-align:text-top;
+padding:5px;
+margin:0px;
+}
+  
+.airportparking { 
+	background-image:url(images/experience/torontoairportparkingSmall.jpg);
+	background-repeat:no-repeat;
+	height:105px; 
+	width:320px; 
+
+}
+.airportparkingtext { padding:73px 0px 5px 95px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; }
+
+.airportparkingtext a:link { border:0px; text-decoration:none; color:#FFFFFF; }
+.airportparkingtext a:visited { border:0px; text-decoration:none; color:#FFFFFF;}
+.airportparkingtext a:hover { border:0px; text-decoration:underline; color:#CA0000; }
+
+.airportparkingtext a:active { border:0px; text-decoration:underline; color:#CA0000;}
+.home-banner {
+	background: url(images/europesale2.jpg) no-repeat; 
+	border: 10px solid #FFF;
+	min-height: 100px;
+	margin: 0px;
+	padding: 125px 0px 0px 0px;	
+}
+.home-banner a { background: url(images/new_images/arrow-white.gif) no-repeat left; padding-left: 15px; color: #FFF; font: bold 13px Arial, Helvetica, sans-serif;}
+.home-banner table {width: 450px; margin: 0px 0px 0px 25px; border-collapse: 2px;}
+.home-banner td { width: 150px; padding: 5px 10px 5px 5px; background: url(images/new_images/png-bg-black-50.png); }  
+
+.newsButt{
+margin:10px 10px 10px 10px;
+padding:0px;
+border:0px;
+}
+
+.newsButt a:link { border:0px; text-decoration:none; }
+.newsButt a:visited { border:0px; text-decoration:none;}
+.newsButt a:hover { border:0px; text-decoration:underline; }
+
+.beachesimage{
+	float:left;
+	margin:5px 10px 10px 10px;
+	padding:5px;
+	border:1px solid #CCCCCC;
+}
+.flightindex {
+	margin: 0px; padding: 0px;
+}
+.flightindex h2 { 
+	border: 1px solid #CCC; 
+	font: bold 18px Arial, Helvetica, sans-serif; 
+	color: #0055AA; 
+	margin: 10px 10px 4px 10px; 
+	padding: 10px 10px;
+	background: url(http://www.redtag.ca/images/topbg.gif) repeat-x center; 
+}
+
+.flightindex h2 a {
+	color: #0055AA;
+	text-decoration: none;	
+}
+.flightindex h2 a:hover {
+	color: #000;
+}
+.flightindex ul {margin:0px 0px 10px 0px; padding: 0px; list-style: none;}
+.flightindex li {
+	margin: 0px 10px 4px 10px;
+	padding: 5px 10px;
+	border: 1px solid #CCC;
+	background: url(http://www.redtag.ca/images/experience/travelinfolinks-bg.jpg) repeat-x bottom;
+}
+.priceAlign { margin: 0px; padding: 0px;float: right; text-align: right; font: normal 10px Arial, Helvetica, sans-serif; color: #333;}
+.priceAlign  .pricesbig {
+	margin: 0px; padding: 0px;
+}	
+.priceAlign  .pricesbig a { font: bold 12px lucida grande, Arial, Helvetica, sans-serif; margin: 0px; padding: 0px;}
+.blueTitle {
+	font: bold 10px Arial, Helvetica, sans-serif;
+	color: #0055AA;
+}
+
+.blueTitle1 a { 
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #0055AA;
+}
+.blueTitle1 a:hover{ 
+	color: #0055AA;
+	text-decoration: none;
+}
+.dealDates { font: normal 10px Arial, Helvetica, sans-serif; color: #333;}
+.title1 { font: bold 12px Arial, Helvetica, sans-serif; color: #000; }
+.flightindex h2 .title1 a {font: bold 12px Arial, Helvetica, sans-serif; color: #000; text-decoration:underline;}
+.flightindex h2 .title1 a:hover {color: #0055AA;}
+
+.rightcruisebg{
+	background: url(http://www.redtag.ca/images/experience/travelinfolinks-bg.jpg) repeat-x;
+	background-color:#F4F4F4;
+	margin:0px 10px 10px 10px;
+}
+
+/*styles add from old flight pages     */
+.titlesLeftSide {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CA0000;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #F1F3F4;
+	padding: 4px 0px 4px 4px;
+	width: 200px;
+	border: 1px solid #BED5E5;
+}
+
+.menuleftside {
+	font-size: 11px;
+	color: #044372;
+	font-weight: bold;
+	height: 22px;
+	text-align: left;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #BED5E5;
+}
+.menuleftside a:link {
+	font-size: 11px;
+	color: #044372;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.menuleftside a:visited {
+	font-size: 11px;
+	color: #044372;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.menuleftside a:hover {
+	font-size: 11px;
+	color: #CA0000;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+
+#RightFeature {
+	background-color: #FFFFFF;
+	text-decoration:none;
+	text-align: left;
+	color:#333333;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 10px 0px 10px;
+
+}
+#RightFeature a, #RightFeature a:visited {
+	text-decoration:none;
+	text-align: left;
+	color: #06538c;
+	font-size:14px;
+	font-weight: bold;
+	display:block;
+	margin-top: 4px;
+	padding: 5px 2px 5px 35px;
+	background-color: #F1F1F1;
+	background-image: url(http://www.redtag.ca/images/arrowred.gif);
+	background-repeat: no-repeat;
+	background-position: 16px 8px; 
+/*	border-bottom: 1px solid #CCCCCC; */
+}
+
+#RightFeature a:hover {
+	color: #CA0000;
+ 	text-decoration: underline;
+ 	background-color:  #FFFFFF;
+/*	background-image: url(http://www.redtag.ca/images/bulletarrowgray2.gif);
+	background-repeat: no-repeat;
+    background-position: right; */
+}
+
+.features {
+	background-color:#073364;
+	width:277px;
+	height:50px;
+
+	}
+.featuresText {
+	padding-left:15px;
+	padding-top:18px;
+	font-family:Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#FFFFFF;
+	}
+	
+.featuresWhite{
+	background-color:#FFFFFF;
+	padding-top:5px;
+	padding-bottom:10px;
+	width:275px;
+	height:100%;
+	border: 1px solid #CCCCCC;
+	}
+	/*END styles add from old flight pages     */
+	
+.europeflightsale {
+	background: url(http://www.redtag.ca/images/itsback-europesale.jpg) no-repeat 10px;
+	background-color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	height: 320px;
+	overflow: hidden;
+	
+}
+.europeflightsale-info {
+	color: #FFF;
+	float: right;
+	margin: 40px 45px;
+	padding: 0px;
+/*	background: url(images/new_images/png-bg-white-10.png);*/
+	font: normal 10px Arial, Helvetica, sans-serif;
+	text-align: left;
+	width: 250px;
+}
+.europeflightsale-info strong { margin-left: 5px; font: bold 12px Arial, Helvetica, sans-serif;}
+.europeflightsale-info table { width: 250px; background: url(http://www.redtag.ca/images/europeflightsale-bg.png) no-repeat; margin-bottom: 1px;} 
+.europeflightsale-info td {
+	padding: 2px 7px 2px 2px;
+}
+.europeflightsale-price {
+	color: #FFF;
+	font: bold 23px Arial, Helvetica, sans-serif;
+}
+.europeflightsale-price a {
+	color: #CA0000;
+	font: bold 16px Arial, Helvetica, sans-serif;
+	text-decoration: underline;	
+}		
+.europeflightsale-price a:hover {text-decoration: none;}
+.europeflightsale-more {
+	color: #FFF; 
+	font: bold 13px Arial, Helvetica, sans-serif;
+	text-align: right;
+	padding: 5px;
+}
+.europeflightsale-more a {
+	background: url(http://www.redtag.ca/images/new_images/arrow-red.gif) no-repeat right;
+	padding-right: 10px;
+	color: #000;
+	text-decoration:underline;
+}
+.europeflightsale-more a:hover {text-decoration: none;}
+
+#flashcontent{
+	width:946px;
+	height:370px;
+	border:10px solid #FFFFFF;
+}
+
+#flash-banner-touropp{
+	margin:0px;
+	padding:0px;
+}
+
+#cdcontainer{
+	background: url(https://secure.redtag.ca/countdown/happy-hour-banner-grey.gif) no-repeat;
+	margin: 0px 0px 14px 17px;
+	padding: 0px;
+	height:80px;	
+	overflow:hidden;
+	clear: both;
+}
+
+
+.happyhour{
+	padding:20px 0px 0px 0px;
+	margin-left:403px;
+	width:105px;
+}
+
+.lcdtitle{ /*COUNTDOWN TIME REMAINING STYLE*/
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color:#0055AA;
+	display:block;
+	margin-bottom:7px;	
+}
+
+.lcdstyle { /*COUNTDOWN TIME STYLE*/
+	font: bold 15px Arial, Helvetica, sans-serif;
+	color:#0055AA;
+	margin: 15px 0px 0px 0px;
+}
+
+.lcdstyle-expire { /*COUNTDOWN TIME STYLE - EXPIRED*/
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color:#0055AA;
+	margin: 17px 0px 0px 0px;
+}
+
+#happyhourcontain {
+	width:966px;
+	padding: 0px;
+	float:left;
+	background-color: #FFFFFF;
+}
+
+.happy-hour-button{
+	margin: 40px 0px 0px 0px;
+	padding:0px;
+	background: url(http://www.redtag.ca/images/happy-hour-button.jpg) no-repeat;
+	width:472px;
+	height:130px;
+}
+.bpg {
+	position: absolute;
+	top: 157px;
+	width: 100%;
+	height:894px;
+	margin: 0px;
+	padding: 0px;
+	z-index: -1;
+	background: url(images/z103-bg.jpg) no-repeat top center;
+}
+#chooseFlight{
+	font-size:15px;
+	color:#0055AA;
+	font-weight:bold;
+}
